@@ -2,7 +2,7 @@
 
 Keyword-tag images with a local LLM (default llava:7b) and use fuzzy match with a search query to find and display image matches.
 
-![example output](img/example.jpg)
+![example output](img/output.jpg)
 
 ## Example Use
 Tag all photos in the specified directory:
@@ -19,13 +19,6 @@ python cli.py -s mountains
 - Will attempt to install llava:7b through ollama if it is not already installed.
 - The tagging doesn't work very well, though it used to (2 months ago) work better...
 
-![dog (not a donut, mushroom, pizza, burger, toast, or bread)](img/1.jpg)
-Donut,Mushroom,Pizza,Burger,Toast,Bread
-
-![swimmer (not dkny, luxury, designer, or fashion)](img/2.jpg)
-dkny,luxury,designer,fashion
-
-![alpaca (not donut, crab cake, or cake))](img/3.jpg)
-donut,crab cake,cake
+![example images](images.jpg)
 
 - Perhaps it would work better with a different (larger) model, but I can't run >7B parameter models locally. Otherwise it's a simple change. 
