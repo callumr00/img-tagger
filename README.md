@@ -2,7 +2,9 @@
 
 Keyword-tag images with a local LLM and use fuzzy match with a search query to find and display image matches.
 
-![example output](img/output.jpg)
+<div align="center">
+  <img src="img/output.jpg" alt="example output">
+</div>
 
 ## Example Use
 Tag all photos in the specified directory:
